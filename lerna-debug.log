@@ -1,0 +1,128 @@
+0 silly input [ 'publish' ]
+1 silly flags { exact: true,
+1 silly flags   message: 'Publish by MinDev',
+1 silly flags   scope: 'isart-test-min' }
+2 verbose rootPath F:\xcxCase\AckerMin
+3 info version 2.9.0
+4 silly isInitialized
+5 silly isInitialized true
+6 silly existsSync F:\xcxCase\AckerMin\VERSION
+7 info versioning independent
+8 info scope isart-test-min
+9 silly initialize attempt
+10 silly isDetachedHead
+11 silly getCurrentBranch
+12 verbose getCurrentBranch master
+13 verbose isDetachedHead false
+14 silly getCurrentBranch
+15 verbose getCurrentBranch master
+16 silly getUpdates
+17 info Checking for updated packages...
+18 silly hasTags
+19 verbose hasTags false
+20 info Comparing with initial commit.
+21 verbose updated isart-test-min
+22 info Checking for prereleased packages...
+23 silly collectDependents
+24 silly isPackageDependentOf isart-test-min isart-test-min
+25 silly collectUpdates
+26 verbose has filtered update isart-test-min
+27 silly initialize success
+28 silly execute attempt
+29 silly runScriptSync preversion AckerMin
+30 silly runScriptSync preversion isart-test-min
+31 silly runScriptSync version isart-test-min
+32 silly runScriptSync version AckerMin
+33 silly addFile F:\xcxCase\AckerMin\packages\isart-test-min\package.json
+34 silly commit Publish by MinDev
+34 silly commit
+34 silly commit  - isart-test-min@1.0.1
+35 verbose commit [ 'commit',
+35 verbose commit   '--no-verify',
+35 verbose commit   '-F',
+35 verbose commit   'C:\\Users\\佟子青\\AppData\\Local\\Temp\\b31e64d9-0374-4754-ae29-6db5ffaa6ddd\\lerna-commit.txt' ]
+36 silly addTag isart-test-min@1.0.1
+37 silly runScriptSync postversion isart-test-min
+38 silly runScriptSync postversion AckerMin
+39 info publish Publishing packages to npm...
+40 silly existsSync F:\xcxCase\AckerMin\packages\isart-test-min\scripts\prepublish.js
+41 verbose execScript No prepublish script found at F:\xcxCase\AckerMin\packages\isart-test-min\scripts\prepublish.js
+42 verbose publishing isart-test-min
+43 silly publishTaggedInDir latest isart-test-min
+44 silly getExecOpts { cwd: 'F:\\xcxCase\\AckerMin\\packages\\isart-test-min' }
+45 error publish Retrying failed publish: isart-test-min
+46 verbose publish error undefined
+47 verbose publishing isart-test-min
+48 silly publishTaggedInDir latest isart-test-min
+49 silly getExecOpts { cwd: 'F:\\xcxCase\\AckerMin\\packages\\isart-test-min' }
+50 error publish Retrying failed publish: isart-test-min
+51 verbose publish error undefined
+52 verbose publishing isart-test-min
+53 silly publishTaggedInDir latest isart-test-min
+54 silly getExecOpts { cwd: 'F:\\xcxCase\\AckerMin\\packages\\isart-test-min' }
+55 error publish Retrying failed publish: isart-test-min
+56 verbose publish error undefined
+57 verbose publishing isart-test-min
+58 silly publishTaggedInDir latest isart-test-min
+59 silly getExecOpts { cwd: 'F:\\xcxCase\\AckerMin\\packages\\isart-test-min' }
+60 error publish Retrying failed publish: isart-test-min
+61 verbose publish error undefined
+62 verbose publishing isart-test-min
+63 silly publishTaggedInDir latest isart-test-min
+64 silly getExecOpts { cwd: 'F:\\xcxCase\\AckerMin\\packages\\isart-test-min' }
+65 error publish Ran out of retries while publishing isart-test-min Error: Command failed: npm publish --tag latest
+65 error publish npm ERR! path C:\Users\佟子青\AppData\Local\Temp\npm-12536-2d13a45a\tmp\fromDir-a224352c\package.tgz
+65 error publish npm ERR! code EPERM
+65 error publish npm ERR! errno -4048
+65 error publish npm ERR! syscall unlink
+65 error publish npm ERR! Error: EPERM: operation not permitted, unlink 'C:\Users\佟子青\AppData\Local\Temp\npm-12536-2d13a45a\tmp\fromDir-a224352c\package.tgz'
+65 error publish npm ERR!  { Error: EPERM: operation not permitted, unlink 'C:\Users\佟子青\AppData\Local\Temp\npm-12536-2d13a45a\tmp\fromDir-a224352c\package.tgz'
+65 error publish npm ERR!   cause:
+65 error publish npm ERR!    { Error: EPERM: operation not permitted, unlink 'C:\Users\佟子青\AppData\Local\Temp\npm-12536-2d13a45a\tmp\fromDir-a224352c\package.tgz'
+65 error publish npm ERR!      errno: -4048,
+65 error publish npm ERR!      code: 'EPERM',
+65 error publish npm ERR!      syscall: 'unlink',
+65 error publish npm ERR!      path: 'C:\\Users\\佟子青\\AppData\\Local\\Temp\\npm-12536-2d13a45a\\tmp\\fromDir-a224352c\\package.tgz' },
+65 error publish npm ERR!   isOperational: true,
+65 error publish npm ERR!   stack: 'Error: EPERM: operation not permitted, unlink \'C:\\Users\\佟子青\\AppData\\Local\\Temp\\npm-12536-2d13a45a\\tmp\\fromDir-a224352c\\package.tgz\'',
+65 error publish npm ERR!   errno: -4048,
+65 error publish npm ERR!   code: 'EPERM',
+65 error publish npm ERR!   syscall: 'unlink',
+65 error publish npm ERR!   path: 'C:\\Users\\佟子青\\AppData\\Local\\Temp\\npm-12536-2d13a45a\\tmp\\fromDir-a224352c\\package.tgz' }
+65 error publish npm ERR!
+65 error publish npm ERR! Please try running this command again as root/Administrator.
+65 error publish
+65 error publish npm ERR! A complete log of this run can be found in:
+65 error publish npm ERR!     C:\Users\佟子青\AppData\Roaming\npm-cache\_logs\2018-02-21T07_02_56_954Z-debug.log
+65 error publish
+65 error publish     at Promise.all.then.arr (C:\Users\佟子青\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\index.js:236:11)
+65 error publish     at <anonymous>
+65 error publish     at process._tickCallback (internal/process/next_tick.js:160:7)
+66 error execute callback with error
+67 error Error: Command failed: npm publish --tag latest
+67 error npm ERR! path C:\Users\佟子青\AppData\Local\Temp\npm-12536-2d13a45a\tmp\fromDir-a224352c\package.tgz
+67 error npm ERR! code EPERM
+67 error npm ERR! errno -4048
+67 error npm ERR! syscall unlink
+67 error npm ERR! Error: EPERM: operation not permitted, unlink 'C:\Users\佟子青\AppData\Local\Temp\npm-12536-2d13a45a\tmp\fromDir-a224352c\package.tgz'
+67 error npm ERR!  { Error: EPERM: operation not permitted, unlink 'C:\Users\佟子青\AppData\Local\Temp\npm-12536-2d13a45a\tmp\fromDir-a224352c\package.tgz'
+67 error npm ERR!   cause:
+67 error npm ERR!    { Error: EPERM: operation not permitted, unlink 'C:\Users\佟子青\AppData\Local\Temp\npm-12536-2d13a45a\tmp\fromDir-a224352c\package.tgz'
+67 error npm ERR!      errno: -4048,
+67 error npm ERR!      code: 'EPERM',
+67 error npm ERR!      syscall: 'unlink',
+67 error npm ERR!      path: 'C:\\Users\\佟子青\\AppData\\Local\\Temp\\npm-12536-2d13a45a\\tmp\\fromDir-a224352c\\package.tgz' },
+67 error npm ERR!   isOperational: true,
+67 error npm ERR!   stack: 'Error: EPERM: operation not permitted, unlink \'C:\\Users\\佟子青\\AppData\\Local\\Temp\\npm-12536-2d13a45a\\tmp\\fromDir-a224352c\\package.tgz\'',
+67 error npm ERR!   errno: -4048,
+67 error npm ERR!   code: 'EPERM',
+67 error npm ERR!   syscall: 'unlink',
+67 error npm ERR!   path: 'C:\\Users\\佟子青\\AppData\\Local\\Temp\\npm-12536-2d13a45a\\tmp\\fromDir-a224352c\\package.tgz' }
+67 error npm ERR!
+67 error npm ERR! Please try running this command again as root/Administrator.
+67 error
+67 error npm ERR! A complete log of this run can be found in:
+67 error npm ERR!     C:\Users\佟子青\AppData\Roaming\npm-cache\_logs\2018-02-21T07_02_56_954Z-debug.log
+67 error
+67 error     at Promise.all.then.arr (C:\Users\佟子青\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\index.js:236:11)
+67 error     at <anonymous>
