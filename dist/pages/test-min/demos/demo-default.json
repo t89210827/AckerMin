@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "isart-test-min": "../../../packages/isart-test-min/dist/index"
+  },
+  "component": true
+}

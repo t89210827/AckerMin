@@ -1,0 +1,25 @@
+<template>
+  <view class="isart-test-min">
+    <view>测试组件</view>
+    <view>我是Acker</view>
+  </view>
+</template>
+
+<script>
+export default {
+  config: {
+    usingComponents: { }
+  },
+  behaviors: [ ],
+  properties: { },
+  data: { },
+  methods: { }
+}
+
+
+</script>
+
+<style>
+.isart-test-min {
+}
+</style>

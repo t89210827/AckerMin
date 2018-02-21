@@ -1,0 +1,4 @@
+<view class="isart-test-min">
+    <view>测试组件</view>
+    <view>我是Acker</view>
+</view>
